@@ -1,0 +1,168 @@
+name: graduation_project_3
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map:
+  geolocator:
+  image_picker:
+  camera:
+  sensors_plus: ^3.0.2
+  tflite_flutter:
+  image: ^4.0.17
+  flutter_tts:
+  location:
+  google_maps_flutter:
+  url_launcher:
+  http:
+  intl:
+  firebase_core:
+  firebase_auth:
+  shared_preferences:
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_compass: ^0.8.1
+
+  flutter_launcher_icons: "^0.14.3"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/images.jpeg"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  fonts:
+    - family: AbrilFatface
+      fonts:
+        - asset: assets/fonts/AbrilFatface-Regular.ttf
+    - family: Oxanium
+      fonts:
+        - asset: lib/starter_screen/oxanium/Oxanium-Bold.ttf
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/models/
+    - lib/starter_screen/backgroundproject.png
+    - lib/signup-login-page/login/WhatsApp Image 2025-02-01 at 23.40.06.jpeg
+    - lib/home_page/images/
+    - lib/home_page/images/abu-el-abbas/
+    - lib/home_page/images/abu_haggag/
+    - lib/home_page/images/agiba_beach/
+    - lib/home_page/images/akhenaten/
+    - lib/home_page/images/alex_opera/
+    - lib/home_page/images/amenhotep/
+    - lib/home_page/images/amr Ibn al-aas/
+    - lib/home_page/images/babylon fortress/
+    - lib/home_page/images/baron_palace/
+    - lib/home_page/images/bent_pyramid/
+    - lib/home_page/images/bib_alex/
+    - lib/home_page/images/bust of ramesses/
+    - lib/home_page/images/cairo tower/
+    - lib/home_page/images/citadel_of_qaitbay/
+    - lib/home_page/images/colossi_of_memnon/
+    - lib/home_page/images/deir_el_medina/
+    - lib/home_page/images/egyptian museum tahrir/
+    - lib/home_page/images/egyptian_national_military_museum/
+    - lib/home_page/images/fatimid_cemetery/
+    - lib/home_page/images/gebel_silsila/
+    - lib/home_page/images/giza_zoo/
+    - lib/home_page/images/great hypostyle hall of karnak/
+    - lib/home_page/images/great temple of ramesses/
+    - lib/home_page/images/hanging_church/
+    - lib/home_page/images/high_dam/
+    - lib/home_page/images/ibn tulun/
+    - lib/home_page/images/isis with her child/
+    - lib/home_page/images/luxor_temple/
+    - lib/home_page/images/mask of tutankhamun/
+    - lib/home_page/images/monastery_of_saint_simeon/
+    - lib/home_page/images/montaza_palace/
+    - lib/home_page/images/nefertiti/
+    - lib/home_page/images/ptolemaic_temple_of_hathor/
+    - lib/home_page/images/pyramid of djoser/
+    - lib/home_page/images/pyramid_of_unas/
+    - lib/home_page/images/pyramids/
+    - lib/home_page/images/qubbet_el_hawa/
+    - lib/home_page/images/ramesseum/
+    - lib/home_page/images/saint_george_church_in_coptic/
+    - lib/home_page/images/sphinx/
+    - lib/home_page/images/statue of king zoser/
+    - lib/home_page/images/statue of ramesses/
+    - lib/home_page/images/statue of tutankhamun with ankhesenamun/
+    - lib/home_page/images/temple_of_kom_ombo/
+    - lib/home_page/images/temple_of_seti/
+    - lib/home_page/images/unfinished_obelisk/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
