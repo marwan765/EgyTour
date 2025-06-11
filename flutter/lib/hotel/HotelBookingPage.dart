@@ -120,7 +120,7 @@ class _HotelBookingPageState extends State<HotelBookingPage> {
       final response = await http.get(
         url,
         headers: {
-          'x-rapidapi-key': "f0839a2ffdmshb944ff42edb1f34p13f35ajsn5f7dc8fc39a2",
+          'x-rapidapi-key': "",
           'x-rapidapi-host': 'booking-com15.p.rapidapi.com',
         },
       ).timeout(const Duration(seconds: 20));
